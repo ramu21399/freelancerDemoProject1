@@ -1,0 +1,193 @@
+[INFO ] 2025-08-28 15:15:26.579 [main] [BookApiApplication] com.freelancer.BookApiApplicationTests - Starting BookApiApplicationTests using Java 21.0.3 with PID 9960 (started by ramu2 in D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication)
+[INFO ] 2025-08-28 15:15:26.584 [main] [BookApiApplication] com.freelancer.BookApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-08-28 15:15:27.653 [main] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2025-08-28 15:15:27.715 [main] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
+[INFO ] 2025-08-28 15:15:28.218 [main] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2025-08-28 15:15:28.487 [main] [BookApiApplication] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=SA
+[INFO ] 2025-08-28 15:15:28.490 [main] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2025-08-28 15:15:28.551 [main] [BookApiApplication] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2025-08-28 15:15:28.648 [main] [BookApiApplication] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+[INFO ] 2025-08-28 15:15:28.704 [main] [BookApiApplication] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2025-08-28 15:15:29.088 [main] [BookApiApplication] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[WARN ] 2025-08-28 15:15:29.165 [main] [BookApiApplication] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-08-28 15:15:29.191 [main] [BookApiApplication] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 2025-08-28 15:15:30.083 [main] [BookApiApplication] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-08-28 15:15:30.127 [main] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2025-08-28 15:15:30.621 [main] [BookApiApplication] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2025-08-28 15:15:30.696 [main] [BookApiApplication] org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[INFO ] 2025-08-28 15:15:31.237 [main] [BookApiApplication] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
+[INFO ] 2025-08-28 15:15:31.334 [main] [BookApiApplication] com.freelancer.BookApiApplicationTests - Started BookApiApplicationTests in 5.249 seconds (process running for 6.747)
+[INFO ] 2025-08-28 15:15:32.068 [SpringApplicationShutdownHook] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2025-08-28 15:15:32.073 [SpringApplicationShutdownHook] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2025-08-28 15:15:32.077 [SpringApplicationShutdownHook] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2025-08-28 15:15:35.801 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - Starting BookApiApplication using Java 21.0.3 with PID 25308 (D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication\target\classes started by ramu2 in D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication)
+[INFO ] 2025-08-28 15:15:35.803 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-08-28 15:15:35.854 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2025-08-28 15:15:35.855 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2025-08-28 15:15:36.552 [restartedMain] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2025-08-28 15:15:36.603 [restartedMain] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+[INFO ] 2025-08-28 15:15:37.105 [restartedMain] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 4040 (http)
+[INFO ] 2025-08-28 15:15:37.120 [restartedMain] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:15:37.122 [restartedMain] [BookApiApplication] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2025-08-28 15:15:37.122 [restartedMain] [BookApiApplication] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+[INFO ] 2025-08-28 15:15:37.170 [restartedMain] [BookApiApplication] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2025-08-28 15:15:37.172 [restartedMain] [BookApiApplication] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1317 ms
+[INFO ] 2025-08-28 15:15:37.296 [restartedMain] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2025-08-28 15:15:37.451 [restartedMain] [BookApiApplication] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=SA
+[INFO ] 2025-08-28 15:15:37.453 [restartedMain] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2025-08-28 15:15:37.488 [restartedMain] [BookApiApplication] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2025-08-28 15:15:37.525 [restartedMain] [BookApiApplication] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+[INFO ] 2025-08-28 15:15:37.554 [restartedMain] [BookApiApplication] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2025-08-28 15:15:37.784 [restartedMain] [BookApiApplication] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[WARN ] 2025-08-28 15:15:37.826 [restartedMain] [BookApiApplication] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-08-28 15:15:37.842 [restartedMain] [BookApiApplication] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 2025-08-28 15:15:38.500 [restartedMain] [BookApiApplication] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-08-28 15:15:38.531 [restartedMain] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2025-08-28 15:15:38.782 [restartedMain] [BookApiApplication] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2025-08-28 15:15:38.824 [restartedMain] [BookApiApplication] org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[INFO ] 2025-08-28 15:15:39.107 [restartedMain] [BookApiApplication] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
+[INFO ] 2025-08-28 15:15:39.174 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2025-08-28 15:15:39.197 [restartedMain] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:15:39.230 [restartedMain] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 4040 (http) with context path '/'
+[INFO ] 2025-08-28 15:15:39.239 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - Started BookApiApplication in 3.98 seconds (process running for 4.462)
+[INFO ] 2025-08-28 15:15:48.180 [http-nio-4040-exec-1] [BookApiApplication] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2025-08-28 15:15:48.180 [http-nio-4040-exec-1] [BookApiApplication] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2025-08-28 15:15:48.181 [http-nio-4040-exec-1] [BookApiApplication] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2025-08-28 15:15:48.552 [http-nio-4040-exec-8] [BookApiApplication] org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 169 ms
+[INFO ] 2025-08-28 15:16:33.682 [File Watcher] [BookApiApplication] org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+[INFO ] 2025-08-28 15:16:33.685 [Thread-5] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+[INFO ] 2025-08-28 15:16:33.687 [tomcat-shutdown] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:16:33.695 [tomcat-shutdown] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+[INFO ] 2025-08-28 15:16:33.695 [Thread-5] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:16:33.700 [Thread-5] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2025-08-28 15:16:33.708 [Thread-5] [BookApiApplication] org.springframework.beans.factory.support.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+[INFO ] 2025-08-28 15:16:33.709 [Thread-5] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2025-08-28 15:16:33.712 [Thread-5] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2025-08-28 15:16:33.794 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - Starting BookApiApplication using Java 21.0.3 with PID 25308 (D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication\target\classes started by ramu2 in D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication)
+[INFO ] 2025-08-28 15:16:33.794 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-08-28 15:16:33.969 [restartedMain] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2025-08-28 15:16:33.979 [restartedMain] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+[INFO ] 2025-08-28 15:16:34.089 [restartedMain] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 4040 (http)
+[INFO ] 2025-08-28 15:16:34.092 [restartedMain] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:16:34.093 [restartedMain] [BookApiApplication] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2025-08-28 15:16:34.093 [restartedMain] [BookApiApplication] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+[INFO ] 2025-08-28 15:16:34.110 [restartedMain] [BookApiApplication] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2025-08-28 15:16:34.110 [restartedMain] [BookApiApplication] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 315 ms
+[INFO ] 2025-08-28 15:16:34.138 [restartedMain] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+[INFO ] 2025-08-28 15:16:34.141 [restartedMain] [BookApiApplication] com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:bookdb user=SA
+[INFO ] 2025-08-28 15:16:34.141 [restartedMain] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+[INFO ] 2025-08-28 15:16:34.143 [restartedMain] [BookApiApplication] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2025-08-28 15:16:34.145 [restartedMain] [BookApiApplication] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2025-08-28 15:16:34.155 [restartedMain] [BookApiApplication] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[WARN ] 2025-08-28 15:16:34.157 [restartedMain] [BookApiApplication] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-08-28 15:16:34.157 [restartedMain] [BookApiApplication] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 2025-08-28 15:16:34.191 [restartedMain] [BookApiApplication] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-08-28 15:16:34.193 [restartedMain] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2025-08-28 15:16:34.265 [restartedMain] [BookApiApplication] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2025-08-28 15:16:34.277 [restartedMain] [BookApiApplication] org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[INFO ] 2025-08-28 15:16:34.357 [restartedMain] [BookApiApplication] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
+[INFO ] 2025-08-28 15:16:34.373 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2025-08-28 15:16:34.382 [restartedMain] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:16:34.386 [restartedMain] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 4040 (http) with context path '/'
+[INFO ] 2025-08-28 15:16:34.389 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - Started BookApiApplication in 0.621 seconds (process running for 59.613)
+[INFO ] 2025-08-28 15:16:34.391 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+[INFO ] 2025-08-28 15:20:20.917 [main] [BookApiApplication] com.freelancer.BookApiApplicationTests - Starting BookApiApplicationTests using Java 21.0.3 with PID 30208 (started by ramu2 in D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication)
+[INFO ] 2025-08-28 15:20:20.919 [main] [BookApiApplication] com.freelancer.BookApiApplicationTests - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-08-28 15:20:22.095 [main] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2025-08-28 15:20:22.168 [main] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+[INFO ] 2025-08-28 15:20:23.150 [main] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2025-08-28 15:20:23.422 [main] [BookApiApplication] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=SA
+[INFO ] 2025-08-28 15:20:23.425 [main] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2025-08-28 15:20:23.493 [main] [BookApiApplication] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2025-08-28 15:20:23.615 [main] [BookApiApplication] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+[INFO ] 2025-08-28 15:20:23.665 [main] [BookApiApplication] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2025-08-28 15:20:24.273 [main] [BookApiApplication] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[WARN ] 2025-08-28 15:20:24.355 [main] [BookApiApplication] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-08-28 15:20:24.380 [main] [BookApiApplication] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 2025-08-28 15:20:25.226 [main] [BookApiApplication] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-08-28 15:20:25.261 [main] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2025-08-28 15:20:25.724 [main] [BookApiApplication] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2025-08-28 15:20:25.789 [main] [BookApiApplication] org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[INFO ] 2025-08-28 15:20:26.217 [main] [BookApiApplication] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
+[INFO ] 2025-08-28 15:20:26.312 [main] [BookApiApplication] com.freelancer.BookApiApplicationTests - Started BookApiApplicationTests in 5.879 seconds (process running for 7.397)
+[INFO ] 2025-08-28 15:20:27.029 [SpringApplicationShutdownHook] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ] 2025-08-28 15:20:27.033 [SpringApplicationShutdownHook] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+[INFO ] 2025-08-28 15:20:27.038 [SpringApplicationShutdownHook] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+[INFO ] 2025-08-28 15:20:31.055 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - Starting BookApiApplication using Java 21.0.3 with PID 24920 (D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication\target\classes started by ramu2 in D:\freelancinfgithumRepo\myfreelancingDemoproj\BookApiApplication)
+[INFO ] 2025-08-28 15:20:31.056 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - No active profile set, falling back to 1 default profile: "default"
+[INFO ] 2025-08-28 15:20:31.098 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[INFO ] 2025-08-28 15:20:31.098 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[INFO ] 2025-08-28 15:20:31.795 [restartedMain] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ] 2025-08-28 15:20:31.846 [restartedMain] [BookApiApplication] org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+[INFO ] 2025-08-28 15:20:32.419 [restartedMain] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 4040 (http)
+[INFO ] 2025-08-28 15:20:32.432 [restartedMain] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:20:32.436 [restartedMain] [BookApiApplication] org.apache.catalina.core.StandardService - Starting service [Tomcat]
+[INFO ] 2025-08-28 15:20:32.436 [restartedMain] [BookApiApplication] org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.44]
+[INFO ] 2025-08-28 15:20:32.491 [restartedMain] [BookApiApplication] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[INFO ] 2025-08-28 15:20:32.492 [restartedMain] [BookApiApplication] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1392 ms
+[INFO ] 2025-08-28 15:20:32.634 [restartedMain] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+[INFO ] 2025-08-28 15:20:32.787 [restartedMain] [BookApiApplication] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:bookdb user=SA
+[INFO ] 2025-08-28 15:20:32.788 [restartedMain] [BookApiApplication] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+[INFO ] 2025-08-28 15:20:32.826 [restartedMain] [BookApiApplication] org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ] 2025-08-28 15:20:32.868 [restartedMain] [BookApiApplication] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.26.Final
+[INFO ] 2025-08-28 15:20:32.896 [restartedMain] [BookApiApplication] org.hibernate.cache.internal.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+[INFO ] 2025-08-28 15:20:33.139 [restartedMain] [BookApiApplication] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+[WARN ] 2025-08-28 15:20:33.182 [restartedMain] [BookApiApplication] org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[INFO ] 2025-08-28 15:20:33.201 [restartedMain] [BookApiApplication] org.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[INFO ] 2025-08-28 15:20:33.867 [restartedMain] [BookApiApplication] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[INFO ] 2025-08-28 15:20:33.898 [restartedMain] [BookApiApplication] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ] 2025-08-28 15:20:34.159 [restartedMain] [BookApiApplication] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ] 2025-08-28 15:20:34.200 [restartedMain] [BookApiApplication] org.springframework.validation.beanvalidation.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+[INFO ] 2025-08-28 15:20:34.519 [restartedMain] [BookApiApplication] org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:bookdb'
+[INFO ] 2025-08-28 15:20:34.584 [restartedMain] [BookApiApplication] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+[INFO ] 2025-08-28 15:20:34.603 [restartedMain] [BookApiApplication] org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-4040"]
+[INFO ] 2025-08-28 15:20:34.626 [restartedMain] [BookApiApplication] org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 4040 (http) with context path '/'
+[INFO ] 2025-08-28 15:20:34.636 [restartedMain] [BookApiApplication] com.freelancer.BookApiApplication - Started BookApiApplication in 4.112 seconds (process running for 4.645)
+[INFO ] 2025-08-28 15:20:41.499 [http-nio-4040-exec-1] [BookApiApplication] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[INFO ] 2025-08-28 15:20:41.499 [http-nio-4040-exec-1] [BookApiApplication] org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+[INFO ] 2025-08-28 15:20:41.500 [http-nio-4040-exec-1] [BookApiApplication] org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+[INFO ] 2025-08-28 15:20:41.972 [http-nio-4040-exec-5] [BookApiApplication] org.springdoc.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 197 ms
+[INFO ] 2025-08-28 15:24:45.753 [http-nio-4040-exec-8] [BookApiApplication] com.freelancer.bookcontroller.BookController - Rest controller  stating the application
+[INFO ] 2025-08-28 15:24:45.867 [http-nio-4040-exec-8] [BookApiApplication] com.freelancer.bookcontroller.BookController - Invoking the service class method 
+[INFO ] 2025-08-28 15:24:45.867 [http-nio-4040-exec-8] [BookApiApplication] com.freelancer.serviceimpl.BookServiceImpl - adding the book to Db
+[INFO ] 2025-08-28 15:24:46.143 [http-nio-4040-exec-8] [BookApiApplication] com.freelancer.bookcontroller.BookController - mapped entity object to dto object
+[INFO ] 2025-08-28 15:24:59.481 [http-nio-4040-exec-9] [BookApiApplication] com.freelancer.bookcontroller.BookController - Rest controller  stating the application
+[INFO ] 2025-08-28 15:24:59.490 [http-nio-4040-exec-9] [BookApiApplication] com.freelancer.bookcontroller.BookController - Invoking the service class method 
+[INFO ] 2025-08-28 15:24:59.491 [http-nio-4040-exec-9] [BookApiApplication] com.freelancer.serviceimpl.BookServiceImpl - adding the book to Db
+[INFO ] 2025-08-28 15:24:59.500 [http-nio-4040-exec-9] [BookApiApplication] com.freelancer.bookcontroller.BookController - mapped entity object to dto object
+[WARN ] 2025-08-28 15:25:10.934 [http-nio-4040-exec-10] [BookApiApplication] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (':' (code 58)): was expecting comma to separate Object entries]
